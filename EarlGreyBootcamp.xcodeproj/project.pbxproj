@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FDFE10BF561997584E9309B /* libPods-EarlGreyBootcamp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 590D6E4FFF8B823B4A6CBF8B /* libPods-EarlGreyBootcamp.a */; };
+		ABC704EA1D00C29300C1D606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC704E91D00C29300C1D606 /* main.m */; };
+		ABC704ED1D00C29300C1D606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC704EC1D00C29300C1D606 /* AppDelegate.m */; };
+		ABC704F51D00C29300C1D606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC704F41D00C29300C1D606 /* Assets.xcassets */; };
+		ABC704F81D00C29300C1D606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC704F61D00C29300C1D606 /* LaunchScreen.storyboard */; };
+		ABC7050F1D00C48300C1D606 /* Pivot.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC7050D1D00C48300C1D606 /* Pivot.m */; };
+		ABC705181D00C58B00C1D606 /* BootcampTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC705111D00C58B00C1D606 /* BootcampTableViewController.m */; };
+		ABC705191D00C58B00C1D606 /* BootcampTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC705121D00C58B00C1D606 /* BootcampTableViewController.xib */; };
+		ABC7051A1D00C58B00C1D606 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC705141D00C58B00C1D606 /* Constants.m */; };
+		ABC7051B1D00C58B00C1D606 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC705161D00C58B00C1D606 /* DetailsViewController.m */; };
+		ABC7051C1D00C58B00C1D606 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC705171D00C58B00C1D606 /* DetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EAA995D19E3551FB75D0A68 /* Pods-EarlGreyBootcamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyBootcamp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyBootcamp/Pods-EarlGreyBootcamp.release.xcconfig"; sourceTree = "<group>"; };
+		590D6E4FFF8B823B4A6CBF8B /* libPods-EarlGreyBootcamp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EarlGreyBootcamp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1E57518B9A6A97AFF9A741 /* Pods-EarlGreyBootcamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyBootcamp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyBootcamp/Pods-EarlGreyBootcamp.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC704E51D00C29300C1D606 /* EarlGreyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGreyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC704E91D00C29300C1D606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABC704EB1D00C29300C1D606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABC704EC1D00C29300C1D606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABC704F41D00C29300C1D606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABC704F71D00C29300C1D606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABC704F91D00C29300C1D606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC7050C1D00C48300C1D606 /* Pivot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pivot.h; sourceTree = "<group>"; };
+		ABC7050D1D00C48300C1D606 /* Pivot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pivot.m; sourceTree = "<group>"; };
+		ABC7050E1D00C48300C1D606 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ABC705101D00C58B00C1D606 /* BootcampTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootcampTableViewController.h; sourceTree = "<group>"; };
+		ABC705111D00C58B00C1D606 /* BootcampTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootcampTableViewController.m; sourceTree = "<group>"; };
+		ABC705121D00C58B00C1D606 /* BootcampTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BootcampTableViewController.xib; sourceTree = "<group>"; };
+		ABC705131D00C58B00C1D606 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		ABC705141D00C58B00C1D606 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		ABC705151D00C58B00C1D606 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		ABC705161D00C58B00C1D606 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		ABC705171D00C58B00C1D606 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC704E21D00C29300C1D606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDFE10BF561997584E9309B /* libPods-EarlGreyBootcamp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2476D30E65A23A2B8BCED952 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E57518B9A6A97AFF9A741 /* Pods-EarlGreyBootcamp.debug.xcconfig */,
+				3EAA995D19E3551FB75D0A68 /* Pods-EarlGreyBootcamp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		312F197240211BCB4A8D14E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				590D6E4FFF8B823B4A6CBF8B /* libPods-EarlGreyBootcamp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABC704DC1D00C29300C1D606 = {
+			isa = PBXGroup;
+			children = (
+				ABC704E71D00C29300C1D606 /* EarlGreyBootcamp */,
+				ABC704E61D00C29300C1D606 /* Products */,
+				2476D30E65A23A2B8BCED952 /* Pods */,
+				312F197240211BCB4A8D14E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC704E61D00C29300C1D606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC704E51D00C29300C1D606 /* EarlGreyBootcamp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC704E71D00C29300C1D606 /* EarlGreyBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				ABC704EB1D00C29300C1D606 /* AppDelegate.h */,
+				ABC704EC1D00C29300C1D606 /* AppDelegate.m */,
+				ABC704F41D00C29300C1D606 /* Assets.xcassets */,
+				ABC705101D00C58B00C1D606 /* BootcampTableViewController.h */,
+				ABC705111D00C58B00C1D606 /* BootcampTableViewController.m */,
+				ABC705121D00C58B00C1D606 /* BootcampTableViewController.xib */,
+				ABC705131D00C58B00C1D606 /* Constants.h */,
+				ABC705141D00C58B00C1D606 /* Constants.m */,
+				ABC705151D00C58B00C1D606 /* DetailsViewController.h */,
+				ABC705161D00C58B00C1D606 /* DetailsViewController.m */,
+				ABC705171D00C58B00C1D606 /* DetailsViewController.xib */,
+				ABC704F91D00C29300C1D606 /* Info.plist */,
+				ABC704F61D00C29300C1D606 /* LaunchScreen.storyboard */,
+				ABC7050C1D00C48300C1D606 /* Pivot.h */,
+				ABC7050D1D00C48300C1D606 /* Pivot.m */,
+				ABC704E81D00C29300C1D606 /* Supporting Files */,
+			);
+			path = EarlGreyBootcamp;
+			sourceTree = "<group>";
+		};
+		ABC704E81D00C29300C1D606 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7050E1D00C48300C1D606 /* PrefixHeader.pch */,
+				ABC704E91D00C29300C1D606 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC704E41D00C29300C1D606 /* EarlGreyBootcamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC704FC1D00C29300C1D606 /* Build configuration list for PBXNativeTarget "EarlGreyBootcamp" */;
+			buildPhases = (
+				20636F84B8CE1685B7D30133 /* Check Pods Manifest.lock */,
+				ABC704E11D00C29300C1D606 /* Sources */,
+				ABC704E21D00C29300C1D606 /* Frameworks */,
+				ABC704E31D00C29300C1D606 /* Resources */,
+				3D9DB923DAC78E09FB811C0C /* Embed Pods Frameworks */,
+				873A35956BE4DF8DA8BDA1C0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarlGreyBootcamp;
+			productName = EarlGreyBootcamp;
+			productReference = ABC704E51D00C29300C1D606 /* EarlGreyBootcamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC704DD1D00C29300C1D606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Pivotal;
+				TargetAttributes = {
+					ABC704E41D00C29300C1D606 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ABC704E01D00C29300C1D606 /* Build configuration list for PBXProject "EarlGreyBootcamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC704DC1D00C29300C1D606;
+			productRefGroup = ABC704E61D00C29300C1D606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC704E41D00C29300C1D606 /* EarlGreyBootcamp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC704E31D00C29300C1D606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC704F81D00C29300C1D606 /* LaunchScreen.storyboard in Resources */,
+				ABC705191D00C58B00C1D606 /* BootcampTableViewController.xib in Resources */,
+				ABC704F51D00C29300C1D606 /* Assets.xcassets in Resources */,
+				ABC7051C1D00C58B00C1D606 /* DetailsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20636F84B8CE1685B7D30133 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D9DB923DAC78E09FB811C0C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyBootcamp/Pods-EarlGreyBootcamp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		873A35956BE4DF8DA8BDA1C0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyBootcamp/Pods-EarlGreyBootcamp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC704E11D00C29300C1D606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC7051A1D00C58B00C1D606 /* Constants.m in Sources */,
+				ABC705181D00C58B00C1D606 /* BootcampTableViewController.m in Sources */,
+				ABC7050F1D00C48300C1D606 /* Pivot.m in Sources */,
+				ABC7051B1D00C58B00C1D606 /* DetailsViewController.m in Sources */,
+				ABC704ED1D00C29300C1D606 /* AppDelegate.m in Sources */,
+				ABC704EA1D00C29300C1D606 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABC704F61D00C29300C1D606 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC704F71D00C29300C1D606 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC704FA1D00C29300C1D606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = EarlGreyBootcamp/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC704FB1D00C29300C1D606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = EarlGreyBootcamp/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC704FD1D00C29300C1D606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1E57518B9A6A97AFF9A741 /* Pods-EarlGreyBootcamp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarlGreyBootcamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pivotal.EarlGreyBootcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABC704FE1D00C29300C1D606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAA995D19E3551FB75D0A68 /* Pods-EarlGreyBootcamp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarlGreyBootcamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pivotal.EarlGreyBootcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC704E01D00C29300C1D606 /* Build configuration list for PBXProject "EarlGreyBootcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC704FA1D00C29300C1D606 /* Debug */,
+				ABC704FB1D00C29300C1D606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC704FC1D00C29300C1D606 /* Build configuration list for PBXNativeTarget "EarlGreyBootcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC704FD1D00C29300C1D606 /* Debug */,
+				ABC704FE1D00C29300C1D606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC704DD1D00C29300C1D606 /* Project object */;
+}
