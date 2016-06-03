@@ -47,6 +47,23 @@ In order to complete this task you will need to create your first test class and
 ##### Objective:
 Add a test that selects a Pivot from the table view, and makes sure their job title and projects leading value is displayed in the detail view.
 
+## Task #2: Adding accessibility labels
+
+##### Useful material and links: 
+
+- [EarlGrey Tests - Source code examples] (https://github.com/google/EarlGrey/tree/master/Tests/FunctionalTests/Sources)
+
+##### Objective:
+1. Add an accessibility label to the table view that contains the ETT Pivots
+2. Add an accessibility label to the text entry field in the details view
+3. Use your newly created accessibility labels to write a new test, one that loops through the the rows and taps on each and then enters some text into the detail view's text field.
+
+##### Description:
+
+In order to complete this task you will need to figure out where in the source code to add your accessibility labels. Hint: A good starting point is to look where other screen elements are being styled/initialized
+
+Once you have added accessibility labels you can confirm your additions by using the accessibility inspector. Use some new EarlGrey functions in order to select specific rows in the table view, and to enter text into your text field.
+
 ## Task #3: Stubbing network requests
 
 ##### Useful material and links: 
