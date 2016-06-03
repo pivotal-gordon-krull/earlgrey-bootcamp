@@ -46,3 +46,21 @@ In order to complete this task you will need to create your first test class and
 
 ##### Objective:
 Add a test that selects a Pivot from the table view, and makes sure their job title and projects leading value is displayed in the detail view.
+
+## Task #3: Stubbing network requests
+
+##### Useful material and links: 
+
+- [Nocilla] (https://github.com/luisobo/Nocilla)
+- [Charles Proxy on the iOS Simulator] (https://www.charlesproxy.com/documentation/faqs/ssl-connections-from-within-iphone-applications/)
+
+##### Objective:
+1. Install Nocilla on the bootcamp app
+2. Use Nocilla to stub the network request being used to fetch ETT Pivots and give them new job titles
+
+##### Description:
+
+Get used to Nocilla and all the different ways you can stub network requests. You can use Charles Proxy to intercept the content of the network calls from the app, and edit it for your stub.
+
+In order to complete this task, create a test class that makes use of Nocilla to stub new values in for ETT Pivots, and verifies them using the skills you've learned up until this point.
+
