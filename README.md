@@ -82,6 +82,8 @@ Once you have added accessibility labels you can confirm your additions by using
 
 In order to complete this task, create at least one of each: custom matcher, action, an assertion and implement them in your tests.
 
+Read through the Earl Grey API page to get a feel for each of the different Earl Grey APIs as well as examples of custom matchers, actions and assertions. Build from those examples in your own tests.
+
 ## Task #4: Stubbing network requests
 
 ##### Useful material and links: 
