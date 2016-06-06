@@ -24,6 +24,7 @@ Software:
 
 
 ##### Objective:
+
 1. Set up EarlGrey framework on the sample app
 2. Add a test that launches the app and tests for the presence of a keyWindow
 
@@ -42,10 +43,12 @@ In order to complete this task you will need to create your first test class and
 ##### Useful material and links: 
 
 - [iOS Accessibility Inspector] (https://developer.apple.com/library/ios/technotes/TestingAccessibilityOfiOSApps/TestAccessibilityiniOSSimulatorwithAccessibilityInspector/TestAccessibilityiniOSSimulatorwithAccessibilityInspector.html) 
+- [EarlGrey Cheat Sheet] (https://github.com/google/EarlGrey/blob/master/docs/cheatsheet/cheatsheet.png)
 - [EarlGrey Example Tests] (https://github.com/google/EarlGrey/blob/master/Demo/EarlGreyExample/EarlGreyExampleTests/EarlGreyExampleTests.m)
 
 ##### Objective:
-Add a test that selects a Pivot from the table view, and makes sure their job title and projects leading value is displayed in the detail view.
+
+1. Add a test that selects a Pivot from the table view, and makes sure their job title and projects leading value is displayed in the detail view.
 
 ## Task #2: Adding accessibility labels
 
@@ -64,20 +67,37 @@ In order to complete this task you will need to figure out where in the source c
 
 Once you have added accessibility labels you can confirm your additions by using the accessibility inspector. Use some new EarlGrey functions in order to select specific rows in the table view, and to enter text into your text field.
 
-## Task #3: Stubbing network requests
+## Task #3: Creating custom matchers, actions, and assertions
+
+##### Useful material and links: 
+
+- [EarlGrey APIs] (https://github.com/google/EarlGrey/blob/master/docs/api.md)
+
+##### Objective:
+
+1. Create a custom matcher, action and assertion
+2. Use your new skills in your tests (either create new ones or modify existing tests to use your new matchers, actions and assertions)
+
+##### Description:
+
+In order to complete this task, create at least one of each: custom matcher, action, an assertion and implement them in your tests.
+
+## Task #4: Stubbing network requests
 
 ##### Useful material and links: 
 
 - [Nocilla] (https://github.com/luisobo/Nocilla)
+- [OHHTTPStubs] (https://github.com/AliSoftware/OHHTTPStubs)
 - [Charles Proxy on the iOS Simulator] (https://www.charlesproxy.com/documentation/faqs/ssl-connections-from-within-iphone-applications/)
 
 ##### Objective:
-1. Install Nocilla on the bootcamp app
-2. Use Nocilla to stub the network request being used to fetch ETT Pivots and give them new job titles
+
+1. Install Nocilla or OHHTTPStubs on the bootcamp app
+2. Use the network stubbing tool of your choice to stub the network request being used to fetch ETT Pivots and give them new job titles
 
 ##### Description:
 
-Get used to Nocilla and all the different ways you can stub network requests. You can use Charles Proxy to intercept the content of the network calls from the app, and edit it for your stub.
+Get used to all the different ways you can stub network requests. You can use Charles Proxy to intercept the content of the network calls from the app, and edit it for your stub.
 
-In order to complete this task, create a test class that makes use of Nocilla to stub new values in for ETT Pivots, and verifies them using the skills you've learned up until this point.
+In order to complete this task, create a test class that makes use of network stubbing to create new values for ETT Pivots, and verifies them using the skills you've learned up until this point.
 
